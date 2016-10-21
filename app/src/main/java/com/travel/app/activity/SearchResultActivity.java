@@ -27,7 +27,8 @@ public class SearchResultActivity extends SingleFragmentActivity implements Tour
 
     @Override
     protected Fragment CreateFragment() {
-        int reqCode = getIntent().getIntExtra(EXTRA_SEARCH_CODE, 1);
+        //int reqCode = getIntent().getIntExtra(EXTRA_SEARCH_CODE, 1);
+        int reqCode = 0;
         return TourListFragment.newInstance(reqCode);
     }
 
