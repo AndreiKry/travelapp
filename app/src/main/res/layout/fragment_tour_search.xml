@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/activity_16dp"
+    android:paddingLeft="@dimen/activity_16dp"
+    android:paddingRight="@dimen/activity_16dp">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp">
+        <EditText
+            android:id="@+id/search_tour_from"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/EditText"
+            android:hint="@string/search_tour_from"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp">
+        <EditText
+            android:id="@+id/search_tour_where"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/EditText"
+            android:hint="@string/search_tour_where"
+            android:textColorHint="@color/colorAccent"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <TextView
+        android:id="@+id/search_tour_format"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Туры от 99 до 99 ночей"
+        style="@style/SimpleText"/>
+
+    <com.appyvet.rangebar.RangeBar
+        xmlns:custom="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/search_tour_rangebar"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        custom:tickStart="1"
+        custom:tickInterval="1"
+        custom:tickEnd="29"
+        custom:rangeBarColor="@color/colorAccent"
+        custom:barWeight="2dp"
+        custom:selectorColor="@color/colorAccent"
+        custom:tickColor="@color/colorPrimary"
+        custom:tickHeight="0dp"
+        custom:pinColor="@color/colorAccent"
+        custom:connectingLineColor="@color/colorAccent"
+        custom:pinMaxFont="14sp"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/search_tour_button"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        style="@style/SimpleButton"
+        android:text="@string/search_tour_button_send"
+        android:layout_marginBottom="8dp"/>
+</LinearLayout>

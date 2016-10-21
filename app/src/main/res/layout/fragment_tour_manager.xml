@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SwipeRefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/agent_swipe_refresh_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/agent_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </android.support.v7.widget.RecyclerView>
+
+        <LinearLayout
+            android:id="@+id/agent_error_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:gravity="center_horizontal"
+            android:visibility="gone"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp">
+
+            <TextView
+                android:id="@+id/agent_error_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/SimpleText"
+                android:text="@string/error_internet"
+                android:gravity="center_horizontal"
+                android:layout_marginRight="16dp"/>
+            <Button
+                android:id="@+id/agent_error_connection"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:text="@string/error_reconnect"
+                style="@style/SimpleButton"/>
+        </LinearLayout>
+    </FrameLayout>
+</android.support.v4.widget.SwipeRefreshLayout>
+

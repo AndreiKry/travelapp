@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SwipeRefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tours_swipe_refresh_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/tour_error_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:gravity="center_vertical|center_horizontal"
+            android:visibility="gone"
+            android:padding="@dimen/activity_16dp">
+            <TextView
+                android:id="@+id/tours_error_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/SimpleText"
+                tools:text="No connection"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="0dp"/>
+            <Button
+                android:id="@+id/tours_error_connection"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:text="@string/error_reconnect"
+                style="@style/SimpleButton"
+                android:visibility="gone"
+                android:layout_marginTop="@dimen/activity_16dp"
+                android:layout_marginBottom="@dimen/activity_16dp"/>
+
+            <Button
+                android:id="@+id/tours_error_empty"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:text="@string/error_refill"
+                style="@style/SimpleButton"
+                android:visibility="gone"
+                android:layout_marginTop="@dimen/activity_16dp"
+                android:layout_marginBottom="@dimen/activity_16dp"/>
+
+        </LinearLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/tours_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="end|bottom">
+        </android.support.v7.widget.RecyclerView>
+    </FrameLayout>
+
+</android.support.v4.widget.SwipeRefreshLayout>

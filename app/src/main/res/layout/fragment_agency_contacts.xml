@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/contacts_scroll_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/ScrollViewPadding"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:paddingLeft="@dimen/activity_16dp"
+            android:paddingRight="@dimen/activity_16dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/SectionText"
+                android:text="@string/agency_contacts_title_phone"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="0dp"/>
+            <TextView
+                android:id="@+id/contacts_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/SimpleText"
+                android:text="@string/agency_contacts_body_phone"
+                android:textColor="@color/colorPrimaryText"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:paddingLeft="@dimen/activity_16dp"
+            android:paddingRight="@dimen/activity_16dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/SectionText"
+                android:text="@string/agency_contacts_title_email"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="0dp"/>
+            <TextView
+                android:id="@+id/contacts_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/SimpleText"
+                android:text="@string/agency_contacts_body_email"
+                android:textColor="@color/colorPrimaryText"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:paddingLeft="@dimen/activity_16dp"
+            android:paddingRight="@dimen/activity_16dp"
+            android:layout_marginBottom="8dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/SectionText"
+                android:text="@string/agency_contacts_title_address"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="0dp"/>
+            <TextView
+                android:id="@+id/contacts_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/SimpleText"
+                android:text="@string/agency_contacts_body_address"
+                android:textColor="@color/colorPrimaryText"/>
+        </LinearLayout>
+
+        <!-- MAP FRAGMENT -->
+        <com.google.android.gms.maps.MapView
+            android:id="@+id/mapView"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/contacts_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/activity_16dp"
+            android:paddingRight="@dimen/activity_16dp"/>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="66dp"
+    android:paddingLeft="@dimen/activity_16dp"
+    android:paddingRight="@dimen/activity_16dp">
+
+    <TextView
+        android:id="@+id/contacts_name_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Иванович Петров"
+        android:layout_weight="0.7"/>
+    <Button
+        android:id="@+id/contacts_call_button"
+        android:layout_width="44dp"
+        android:layout_height="44dp"
+        android:text="{gmi-phone}"
+        android:background="@drawable/rounded_corners_circle"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:textSize="20sp"
+        android:textColor="@color/accent"/>
+    <Button
+        android:id="@+id/contacts_vk_button"
+        android:layout_width="44dp"
+        android:layout_height="44dp"
+        android:text="{gmi-vk}"
+        android:background="@drawable/rounded_corners_circle"
+        android:textSize="20sp"
+        android:textColor="@color/accent"/>
+</LinearLayout>

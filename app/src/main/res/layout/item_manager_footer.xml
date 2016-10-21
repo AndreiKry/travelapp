@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp">
+
+    <android.support.v7.widget.SwitchCompat
+        android:id="@+id/agent_item_switch"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        tools:text="Text here"
+        style="@style/SimpleText"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:checked="false"
+        android:gravity="start|center_vertical"/>
+
+    <Button
+        android:id="@+id/agent_item_button"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:text="@string/manager_button_send"
+        style="@style/SimpleButton"/>
+
+</LinearLayout>

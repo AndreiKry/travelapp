@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/single_scroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    android:focusable="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/single_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/SectionText"
+            tools:text="Здесь будет заголовок"
+            android:layout_marginBottom="0dp"/>
+        <!-- START hotel, country & hotel stars START -->
+        <LinearLayout
+            android:id="@+id/single_hotel_country_stars"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="16dp"
+            android:paddingTop="16dp"
+            android:paddingRight="16dp"
+            android:baselineAligned="false"
+            android:layout_below="@+id/single_title"
+            android:paddingBottom="16dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1">
+                <TextView
+                    android:id="@+id/single_hotel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimaryText"
+                    tools:text="Hotel"/>
+
+                <TextView
+                    android:id="@+id/single_country"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorAccent"
+                    tools:text="Country"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/single_hotel_stars"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:id="@+id/single_hotel_star_one"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/ic_star"
+                    android:visibility="invisible"/>
+                <ImageView
+                    android:id="@+id/single_hotel_star_two"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/ic_star"
+                    android:visibility="invisible"/>
+                <ImageView
+                    android:id="@+id/single_hotel_star_three"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/ic_star"
+                    android:visibility="invisible"/>
+                <ImageView
+                    android:id="@+id/single_hotel_star_four"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/ic_star"
+                    android:visibility="invisible"/>
+                <ImageView
+                    android:id="@+id/single_hotel_star_five"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/ic_star"
+                    android:visibility="invisible"/>
+            </LinearLayout>
+        </LinearLayout>
+        <!-- END hotel, country & hotel stars END -->
+
+        <!-- START description & other START -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingBottom="16dp"
+            android:layout_below="@+id/single_hotel_country_stars">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/single_tour_description"
+                style="@style/SectionText"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="0dp"/>
+
+            <TextView
+                android:id="@+id/single_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/SimpleText"
+                tools:text="Здесь должно быть описание Здесь должно быть описание Здесь должно быть описание Здесь должно быть описание Здесь должно быть описание"
+                android:drawableBottom="@drawable/list_separator_divider"
+                android:gravity="clip_horizontal"/>
+
+            <TextView
+                android:id="@+id/single_from"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/SingleSimpleText"
+                tools:text="Откуда: Откуда"/>
+
+            <TextView
+                android:id="@+id/single_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/SingleSimpleText"
+                tools:text="Дата: Дата"/>
+
+            <TextView
+                android:id="@+id/single_meal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/SingleSimpleText"
+                tools:text="Питание: Питание"/>
+
+            <TextView
+                android:id="@+id/single_days"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/SingleSimpleText"
+                tools:text="Дней: Дней"/>
+
+            <TextView
+                android:id="@+id/single_people"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/SingleSimpleText"
+                tools:text="Людей: Людей"/>
+
+            <TextView
+                android:id="@+id/single_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/SingleSimpleText"
+                android:paddingBottom="0dp"
+                tools:text="Цена: Цена"/>
+
+        </LinearLayout>
+        <!-- END description & other END -->
+        <com.getbase.floatingactionbutton.FloatingActionsMenu
+            android:id="@+id/multiple_actions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            fab:fab_addButtonColorNormal="@color/colorAccent"
+            fab:fab_addButtonColorPressed="@color/colorAccentAlpha"
+            fab:fab_addButtonPlusIconColor="@color/md_white_1000"
+            android:layout_marginBottom="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginEnd="16dp"
+            app:fab_size="normal">
+
+            <com.getbase.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fab_action_call"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                fab:fab_colorNormal="@color/colorAccent"
+                fab:fab_colorPressed="@color/colorAccentAlpha"
+                app:fab_size="mini"
+                app:fab_icon="@drawable/ic_action_call"/>
+
+            <com.getbase.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fab_action_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                fab:fab_colorNormal="@color/colorAccent"
+                fab:fab_colorPressed="@color/colorAccentAlpha"
+                app:fab_size="mini"
+                app:fab_icon="@drawable/ic_action_email"/>
+
+        </com.getbase.floatingactionbutton.FloatingActionsMenu>
+    </RelativeLayout>
+
+</ScrollView>

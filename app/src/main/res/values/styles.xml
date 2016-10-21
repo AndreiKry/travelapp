@@ -1,0 +1,85 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="MaterialDrawerTheme.ActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="material_drawer_selected_text">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <style name="AppTheme.NoTitleBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="SectionText">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginBottom">16dp</item>
+    </style>
+
+    <style name="EditText">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/colorPrimaryText</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textColorHint">@color/colorDisabledText</item>
+        <item name="android:inputType">textAutoComplete|textCapWords</item>
+    </style>
+
+    <style name="SimpleText">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/colorPrimaryText</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textColorHint">@color/colorDisabledText</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:focusable">false</item>
+    </style>
+
+    <style name="SingleSimpleText" parent="SimpleText">
+        <item name="android:paddingRight">78dp</item>
+        <item name="android:gravity">start</item>
+    </style>
+
+    <style name="SimpleButton">
+        <item name="android:background">@drawable/rounded_corners_accent</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+    </style>
+
+    <style name="SimpleButtonInv">
+        <!--<item name="android:background">@drawable/rounded_corners_transparent</item>-->
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+    </style>
+
+    <style name="ScrollViewPadding">
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingTop">24dp</item>
+        <item name="android:paddingBottom">16dp</item>
+    </style>
+
+    <style name="TextWithLinks" parent="SimpleText">
+        <item name="android:autoLink">web</item>
+        <item name="android:textColorLink">@color/colorPrimary</item>
+    </style>
+
+</resources>

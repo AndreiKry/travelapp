@@ -1,0 +1,164 @@
+<resources>
+    <string name="app_name">TravelApp</string>
+
+    <!-- ############## NAV DRAWER MENU ############## -->
+    <string name="main_list">Новости</string>
+    <string name="main_search">Поиск</string>
+    <string name="main_manager">Менеджер</string>
+    <string name="main_about">О нас</string>
+    <string name="main_advantages">Преимущества</string>
+    <string name="main_contacts">Контакты</string>
+    <string name="main_rate_app">Оценить</string>
+    <string name="main_about_app">О приложении</string>
+    <string name="main_manager_contacts">Менеджер / Контакты</string>
+    <string name="main_about_advantages">О нас / Преимущества</string>
+
+    <!-- ############## LIST & SINGLE ############## -->
+    <string name="list_tour_formatted_string">Дней: &lt;b>%1$s&lt;/b> Вылет: &lt;b>%2$s&lt;/b> из г. &lt;b>%3$s&lt;/b></string>
+    <string name="single_tour_from">Откуда: %1$s</string>
+    <string name="single_tour_where">Куда: %1$s</string>
+    <string name="single_tour_price_start">Цена тура:&#160;</string>
+    <string name="single_tour_price_end">%1$s</string>
+    <string name="single_tour_date">Дата: %1$s</string>
+    <string name="single_tour_days">Дней: %1$s</string>
+    <string name="single_tour_people">Тур на: %1$s</string>
+    <string name="single_tour_meal">Питание: %1$s</string>
+    <string name="single_tour_description">Описание</string>
+
+    <!-- ############## SEARCH TOUR ############## -->
+    <string name="search_tour_from">Откуда</string>
+    <string name="search_tour_where">Куда</string>
+    <string name="search_tour_text_start">Туры от&#160;</string>
+    <string name="search_tour_format_start">%1$s</string>
+    <string name="search_tour_text_middle">&#160;до&#160;</string>
+    <string name="search_tour_format_end">%1$s</string>
+    <string name="search_tour_text_end">&#160;дней</string>
+    <string name="search_tour_button_send">НАЙТИ</string>
+
+    <!-- ############## MANAGER ############## -->
+    <string name="manager_home">Заказать агента на дом</string>
+    <string name="manager_docs_home">Привезти документы домой</string>
+    <string name="manager_companion">Найти попутчика(цу)</string>
+    <string name="manager_section_like">ВЫБЕРИТЕ ЧТО ВАМ ПОДХОДИТ</string>
+    <string name="manager_button_send">ОТПРАВИТЬ</string>
+
+    <!-- ############## FORM DIALOG & SENDER ############## -->
+    <string name="form_dialog_section_form">ЗАПОЛНИТЕ ФОРМУ</string>
+    <string name="form_dialog_hint_fio">Имя*</string>
+    <string name="form_dialog_hint_phone">Телефон*</string>
+    <string name="form_dialog_hint_email">Email*</string>
+    <string name="form_dialog_hint_comm">Комментарий</string>
+    <string name="form_dialog_button_send">Отправить</string>
+    <string name="form_dialog_button_cancel">Отмена</string>
+    <string name="form_dialog_text_error">Поле является обязательным</string>
+    <string name="form_dialog_email_error">Введите действующий e-mail</string>
+    <string name="form_dialog_phone_error">Введите действующий телефон</string>
+    <string name="form_dialog_field_hint">*Поле является обязательным</string>
+    <string name="form_send_tour">
+        Тур: %1$s \n
+        Отель: %2$s \n
+        Дата: %3$s \n
+        Комментарий: %4$s
+    </string>
+    <string name="form_send_agent">
+        Выбор: %1$s \n
+        Комментарий: %2$s
+    </string>
+    <string name="form_send_contact">
+        Комментарий: %1$s
+    </string>
+    <string name="form_send_error">Ошибка отправки сообщения</string>
+    <string name="form_send_success">Сообщение отправлено</string>
+    <string name="form_send_no_comment">Отсутствует</string>
+    <string name="form_send_no_options">Без выбора</string>
+
+    <!-- ############## CONTACTS ############## -->
+    <string name="agency_contacts_title_phone">{gmi-phone}&#160;Телефон:&#160;</string>
+    <string name="agency_contacts_body_phone">+9(999)999–99–99</string>
+    <string name="agency_contacts_title_email">{gmi-email}&#160;Email:&#160;</string>
+    <string name="agency_contacts_body_email">email@example.com</string>
+    <string name="agency_contacts_title_address">{gmi-pin-drop}&#160;Адрес:&#160;</string>
+    <string name="agency_contacts_body_address">Address here</string>
+    <string name="agency_contacts_marker_title">TravelApp here!</string>
+
+    <!-- ############## ABOUT AGENCY ############## -->
+    <string name="agency_about">
+        Солнечная система — планетная система, включающая в себя центральную звезду —
+        Солнце — и все естественные космические объекты, обращающиеся вокруг Солнца.
+        Она сформировалась путём гравитационного сжатия газопылевого облака примерно 4,57 млрд лет назад.
+        Большая часть массы объектов Солнечной системы приходится на Солнце;
+        остальная часть содержится в восьми относительно уединённых планетах, имеющих почти круговые орбиты и
+        располагающихся в пределах почти плоского диска — плоскости эклиптики.
+        Четыре меньшие внутренние планеты — Меркурий, Венера, Земля и Марс (также называемые планетами земной группы) —
+        состоят в основном из силикатов и металлов. Четыре внешние планеты — Юпитер, Сатурн, Уран и Нептун
+        (также называемые газовыми гигантами) — намного более массивны, чем планеты земной группы.
+        Крупнейшие планеты Солнечной системы, Юпитер и Сатурн, состоят главным образом из водорода и гелия;
+        внешние, меньшие Уран и Нептун, помимо водорода и гелия, содержат в составе своих атмосфер метан и угарный газ.
+        Такие планеты выделяются в отдельный класс «ледяных гигантов». Шесть планет из восьми и четыре карликовые
+        планеты имеют естественные спутники. Каждая из внешних планет окружена кольцами пыли и других частиц.
+    </string>
+
+    <!-- ############## ADVANTAGES ############## -->
+    <string name="agency_advantage_title_one">Планеты земной группы</string>
+    <string name="agency_advantage_body_one">
+        Четыре внутренние планеты состоят преимущественно из тяжёлых элементов, имеют малое количество (0—2) спутников,
+        у них отсутствуют кольца. В значительной степени они состоят из тугоплавких минералов, таких как силикаты,
+        которые формируют их мантию и кору, и металлов, таких как железо и никель, которые формируют их ядро.
+        У трёх внутренних планет — Венеры, Земли и Марса — имеется атмосфера;
+        у всех есть ударные кратеры и тектонические детали рельефа, такие как рифтовые впадины и вулканы
+    </string>
+    <string name="agency_advantage_title_two">Меркурий</string>
+    <string name="agency_advantage_body_two">
+        Меркурий — самая близкая к Солнцу планета Солнечной системы.
+        Планета названа в честь древнеримского бога торговли — быстроногого Меркурия, поскольку она движется
+        по небесной сфере быстрее других планет.
+    </string>
+    <string name="agency_advantage_title_three">Венера</string>
+    <string name="agency_advantage_body_three">
+        Венера — вторая планета Солнечной системы. Названа в честь древнеримской богини любви Венеры.
+        Венера близка по размеру к Земле (0,815 земной массы) и, как и Земля, имеет толстую силикатную оболочку
+        вокруг железного ядра и атмосферу (из-за этого Венеру нередко называют «сестрой» Земли).
+        Имеются также свидетельства её внутренней геологической активности.
+        Однако количество воды на Венере гораздо меньше земного, а её атмосфера в девяносто раз плотнее.
+    </string>
+    <string name="agency_advantage_title_four">Земля</string>
+    <string name="agency_advantage_body_four">
+        Земля — третья от Солнца планета. Пятая по размеру среди всех планет Солнечной системы.
+        Она является также крупнейшей по диаметру, массе и плотности среди планет земной группы.
+        Иногда упоминается как Мир, Голубая планета, иногда Терра (от лат. Terra).
+        Единственное известное человеку на данный момент тело Солнечной системы в частности и Вселенной вообще,
+        населённое живыми организмами.
+    </string>
+    <string name="agency_advantage_title_five">Марс</string>
+    <string name="agency_advantage_body_five">
+        Марс — четвёртая по удалённости от Солнца и седьмая по размерам планета Солнечной системы;
+        масса планеты составляет 10,7 % массы Земли. Названа в честь Марса — древнеримского бога войны,
+        соответствующего древнегреческому Аресу. Иногда Марс называют «красной планетой» из-за красноватого оттенка поверхности,
+        придаваемого ей оксидом железа.
+        Марс — планета земной группы с разреженной атмосферой (давление у поверхности в 160 раз меньше земного).
+        Особенностями поверхностного рельефа Марса можно считать ударные кратеры наподобие лунных, а также вулканы,
+        долины, пустыни и полярные ледниковые шапки наподобие земных.
+    </string>
+
+    <!-- ############## APP INFO ############## -->
+    <string name="app_about_developer">
+        App made by Andrei Krylov \n
+        launcher icon made by Pixel perfect from www.flaticon.com \n
+        splash icon designed by Freepik from www.freepic.com \n
+        space images from www.cosmos-online.ru
+    </string>
+    <string name="app_about_year">2016</string>
+
+    <!-- ############## INTERNET & RESULTS ############## -->
+    <string name="error_internet">Отсутствует интернет-соединение</string>
+    <string name="error_reconnect">Повтор</string>
+    <string name="error_empty">Отсутствуют результаты</string>
+    <string name="error_refill">Назад</string>
+
+    <!-- ############## API URLS ############## -->
+    <string name="list_url">place_url_here%1$s</string>
+    <string name="search_url">place_url_here</string>
+    <string name="manager_url">place_url_here</string>
+    <string name="form_send_url">place_url_here</string>
+
+</resources>
