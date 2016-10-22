@@ -3,17 +3,9 @@ Sample app for travel agenсies
 
 #Preview
 ##Screenshots
-![Image](https://github.com/AndreiKry/travelapp/blob/master/DEV/screenshots/screenshot1.jpg)
-![Image](https://github.com/AndreiKry/travelapp/blob/master/DEV/screenshots/screenshot2.jpg)
-![Image](https://github.com/AndreiKry/travelapp/blob/master/DEV/screenshots/screenshot3.jpg)
-![Image](https://github.com/AndreiKry/travelapp/blob/master/DEV/screenshots/screenshot4.jpg)
-![Image](https://github.com/AndreiKry/travelapp/blob/master/DEV/screenshots/screenshot5.jpg)
-![Image](https://github.com/AndreiKry/travelapp/blob/master/DEV/screenshots/screenshot6.jpg)
-![Image](https://github.com/AndreiKry/travelapp/blob/master/DEV/screenshots/screenshot7.jpg)
-![Image](https://github.com/AndreiKry/travelapp/blob/master/DEV/screenshots/screenshot8.jpg)
-![Image](https://github.com/AndreiKry/travelapp/blob/master/DEV/screenshots/screenshot9.jpg)
-![Image](https://github.com/AndreiKry/travelapp/blob/master/DEV/screenshots/screenshot91.jpg)
-
+![Image]()
+![Image]()
+![Image]()
 
 #License
 Copyright 2016 Andrei Krylov
